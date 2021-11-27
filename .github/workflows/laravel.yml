@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: shivammathur/setup-php@latest
+    - uses: shivammathur/setup-php@7c0b4c8c8ebed23eca9ec2802474895d105b11bc
       with:
         php-version: '7.4'
         extensions: fileinfo,mbstring,openssl,pdo_mysql,redis
